@@ -15,7 +15,7 @@ data <- read.csv("activity.csv")
 ```
 
 2.  Process/transform the data (if nec) into a format suitable for analysis 
- convert the date to desired format
+- convert the date to desired format
 
 ```{r}
 data$date <- as.Date(data$date,format="%Y-%m-%d")
